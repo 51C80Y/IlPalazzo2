@@ -7,14 +7,14 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: black;
     background-image: url(view.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 header {
-    background: #e2c1c1;
+    background: #A1662F;
     color: #ffffff;
     padding: 5px 0;
     text-align:justify;
@@ -22,6 +22,7 @@ header {
 .title{
     float: left;
     padding: -50px;
+    margin: 5px;
 }
 
 nav ul {
@@ -45,10 +46,9 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 100px;
-    background: #e2c1c1;
+    background: #d0955e;
     border-radius: 15px;
 }
-
 
 .room-1 {
     margin-bottom: 20px;
@@ -98,75 +98,67 @@ section {
 
 
 /** Buttons display**/
-
 /* From Uiverse.io by alexmaracinaru */ 
 .cta {
-    position: relative;
-    margin: auto;
-    padding: 12px 18px;
-    transition: all 0.2s ease;
     border: none;
     background: none;
     cursor: pointer;
   }
   
-  .cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 50px;
-    background: #b1dae7;
-    width: 45px;
-    height: 45px;
-    transition: all 0.3s ease;
-  }
-  
   .cta span {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: #234567;
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
   }
   
   .cta svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #234567;
-    stroke-width: 2;
-    transform: translateX(-5px);
+    transform: translateX(-8px);
     transition: all 0.3s ease;
-  }
-  
-  .cta:hover:before {
-    width: 100%;
-    background: #b1dae7;
   }
   
   .cta:hover svg {
     transform: translateX(0);
   }
   
-  .cta:active {
-    transform: scale(0.95);
+  .cta:active svg {
+    transform: scale(0.9);
   }
   
-.text-button {
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  a{
     text-decoration: none;
-}
+    color: #000000;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+/* SET THE CONTACT SECTION*/
+
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #e2c1c1;
-    color: #ffffff;
+    color: black;
     position: relative;
     bottom: 0;
     width: 100%;
