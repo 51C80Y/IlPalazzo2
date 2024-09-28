@@ -8,46 +8,45 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(view.jpeg);
+    background-image: url(lil_palazzo_salotto.webp);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-header {
-    background: #A1662F;
-    color: #ffffff;
-    padding: 5px 0;
-    text-align:justify;
-}
 .title{
-    float: left;
-    padding: -50px;
-    margin: 5px;
+  float: left;
+  color: #ffffff;
+  background-color: #d0955e;
+  font-size: 40px;
+  margin-top: auto;
+
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.topnav{
+  background-color:#d0955e ;
+  overflow:hidden;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.topnav a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 9px 100px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    float: right;
-    padding: 20px;
-}
-
+ .topnav a:hover{
+  
+  color:black;
+ }
 
 section {
     padding: 20px;
     margin: 100px;
     background: #d0955e;
     border-radius: 15px;
+    opacity: 90%;
 }
 
 .room-1 {
