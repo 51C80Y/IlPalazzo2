@@ -29,17 +29,20 @@ header{
     float: left;
     color: #ffffff;
     background-color: #d0955e;
-    font-size: 40px;
+    font-size: 42px;
     margin-top: auto;
-    padding:10px
+    padding:10px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
   
   }
   
   .topnav{
     background-color:#d0955e ;
     overflow:hidden;
-    padding:10px
-  
+    padding:10px;
+
   }
   
   .topnav a{
@@ -48,7 +51,10 @@ header{
     text-align: center;
     padding: 3.7px 100px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20.5px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   
    .topnav a:hover{
@@ -58,9 +64,83 @@ header{
    }
 
 
-.container_images{
-  width: 300px;
+
+
+.container_text{
+color: white;
+margin-top:80px;
+}
+
+.room-image1{
+  width: 500px;
   border-radius: 50px;
   height: 350px;
 }
 
+
+/** Buttons display**/
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: center;
+  
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+  
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+ 
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: white;
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+ 
+
+}
+
+/** Buttons display**/
+/* From Uiverse.io by alexmaracinaru */ 

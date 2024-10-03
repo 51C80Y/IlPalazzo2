@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(il_palazzo_pasti.jpeg);
+    background-image: url(drago_camera.webp);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -21,26 +21,39 @@ body {
   float: left;
   color: #ffffff;
   background-color: #d0955e;
-  font-size: 40px;
+  font-size: 54.5px;
   margin-top: auto;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
 
 }
 
 .topnav{
   background-color:#d0955e ;
   overflow:hidden;
+  margin-top: auto;
 }
 
 .topnav a{
   float: right;
   color: #f2f2f2;
   text-align: center;
-  padding: 9px 100px;
+  padding: 17.5px 100px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 23px;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
  .topnav a:hover{
   
   color:black;
+ }
+
+
+ .text-container{
+  color: #ffffff;
+  margin-top: 60px;
  }
