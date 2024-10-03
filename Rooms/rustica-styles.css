@@ -16,20 +16,13 @@ header{
     background:#ecf0f1; 
     font-family:'Poppins', sans-serif; 
     margin:0; 
-    color:#888
-  }
-
-
-  .banner{
-    background: #A1662F;
+    color:#888;
     background-image: url(la_rustica_cucina_2.jpeg);
-    line-height:600px;
-    text-align:center;
-    color:#fff;
-    font-size:60px;
-    height:900px;
-    width: 100%;
+    background-size: cover;
   }
+
+
+  
   
   
   .title{
@@ -53,7 +46,7 @@ header{
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 3px 100px;
+    padding: 3.7px 100px;
     text-decoration: none;
     font-size: 20px;
   }
@@ -65,3 +58,8 @@ header{
    }
 
 
+.container_images{
+  width: 300px;
+  border-radius: 50px;
+  height: 350px;
+}
