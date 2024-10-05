@@ -24,7 +24,7 @@ body {
   float: left;
   color: #ffffff;
   background-color: #d0955e;
-  font-size: 54.5px;
+  font-size: 74.5px;
   margin-top: auto;
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
@@ -44,7 +44,7 @@ body {
   text-align: center;
   padding: 9.3px 100px;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 43px;
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
   font-style: normal;
@@ -132,7 +132,7 @@ a{
 
 
 .front_images{
-  width: 500px;
+  width: 410px;
   border-radius: 50px;
   height: 350px;
   padding: 30px;
@@ -164,4 +164,14 @@ a{
   
 }
 
+.social-icons{
+  float: right;
+}
 
+footer{
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

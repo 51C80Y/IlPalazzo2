@@ -23,7 +23,7 @@ body {
   float: left;
   color: #ffffff;
   background-color: #d0955e;
-  font-size: 54.1px;
+  font-size: 74px;
   margin-top: auto;
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
@@ -42,7 +42,7 @@ body {
   text-align: center;
   padding: 9px 100px;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 43px;
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
   font-style: normal;
@@ -90,6 +90,7 @@ section {
     float: right;
     margin-top: -60px;
     border-radius: 40px;
+    padding: 10px;
 }
 
 .room-image2{
@@ -98,6 +99,7 @@ section {
     float: right;
     margin-top: -60px;
     border-radius: 40px;
+    padding: 10px;
 }
 
 .room-image3{
@@ -106,6 +108,7 @@ section {
     float: right;
     margin-top: -60px;
     border-radius: 40px;
+    padding: 10px;
 }
 
 #rooms{
@@ -113,8 +116,15 @@ section {
   
 }
 
+p{
+  padding: 10px;
+}
+
 /** Buttons display**/
 /* From Uiverse.io by alexmaracinaru */ 
+button{
+  padding: 10px;
+}
 .cta {
     border: none;
     background: none;
@@ -173,6 +183,10 @@ section {
 
 #contact{
   color: white
+}
+
+.social-icons{
+  float: right;
 }
 
 footer {
