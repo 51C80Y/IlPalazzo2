@@ -1,22 +1,22 @@
 @media screen and (max-width: 1400px) {
-
-}
-
-@media screen and (max-width: 1200px){
-
     #rooms {
-        width: 120vh;
+        width: 150vh;
         
     }
-    .front_images{
-        width: 275px;
+    img{
+        width: 250px;
         height: 275px;
         margin: 0 auto 2rem;
     }
 }
 
+@media screen and (max-width: 1200px){
+
+
+}
+
 
 
 @media screen and (max-width: 600px) {
-
+ 
 }

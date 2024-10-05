@@ -135,12 +135,13 @@ a{
   width: 500px;
   border-radius: 50px;
   height: 350px;
+  padding: 30px;
 }
 
 
 #rooms {
   margin-bottom: 20px;
-  padding: 10px;
+  
   border-radius: 50px;
   color: white;
 }
