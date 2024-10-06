@@ -15,7 +15,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(../il_palazzo_cucina_fiore.jpeg);
+  background-image: url(il_palazzo_cucina_fiore.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -153,20 +153,34 @@ a{
 }
 
 
+
+/*Contact Section*/
+
 #contact{
   color: white;
 }
 
 
-
-#contact-email{
-  float: right;
-  
-}
-
-.social-icons{
+.contact-info-container{
   float: right;
 }
+
+
+
+.icon{
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  padding: 10px;
+}
+
+.youtube{
+  border-radius: 20px;
+}
+
+
+
+
 
 footer{
   text-align: center;
