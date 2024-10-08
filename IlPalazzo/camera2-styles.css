@@ -11,7 +11,7 @@ body {
   margin:0;
   padding: 0;
   background-color: black;
-  background-image: url(la_2.webp);
+  background-image: url(il_palazzo_cucina.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -24,6 +24,11 @@ header{
   margin-top: -80px;
 }
 
+p{
+  background-color: black;
+  border-radius: 10px;
+  opacity: 70%;
+}
 
 .title{
   float: left;
@@ -31,7 +36,8 @@ header{
   background-color: #d0955e;
   font-size: 59px;
   margin-top: 0;
-
+  border-radius: 50px;
+  cursor:default;
 }
 
 .nav-container{
@@ -44,7 +50,8 @@ header{
  .topnav{
   background-color:#d0955e ;
   overflow:hidden;
-
+  border-radius: 50px;
+  
 }
 
 .topnav a{

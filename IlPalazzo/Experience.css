@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(sassetta.jpeg);
+    background-image: url(panorama_il_palazzo.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ body {
 .title{
     float: left;
     color: #ffffff;
-    background-color: black;
+    background-color: rgb(42, 161, 36);
     font-size: 65px;
     margin-top: auto;
     font-family: "Qwitcher Grypen", cursive;

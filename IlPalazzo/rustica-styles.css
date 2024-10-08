@@ -17,7 +17,7 @@ header{
     font-family:'Poppins', sans-serif; 
     margin:0; 
     color:#888;
-    background-image: url(la_rustica_cucina_2.jpeg);
+    background-image: url();
     background-size: cover;
   }
 
@@ -27,6 +27,13 @@ header{
   }
   
   
+  p{
+    background-color: black;
+    border-radius: 10px;
+    opacity: 70%;
+  }
+
+
   .title{
     float: left;
     color: #ffffff;
@@ -37,13 +44,15 @@ header{
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
     font-style: normal;
+    border-radius: 50px;
+    cursor:default;
   }
   
   .topnav{
     background-color:#d0955e ;
     overflow:hidden;
     padding:10px;
-    
+    border-radius: 50px;
   }
   
   .topnav a{
@@ -70,7 +79,7 @@ header{
 }
 
 .container_text{
-color: black;
+color: white;
 margin-top:80px;
 padding: 50px;
 }
