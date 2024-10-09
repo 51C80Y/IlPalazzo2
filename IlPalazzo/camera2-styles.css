@@ -85,7 +85,13 @@ p{
 
 .text-container{
   margin-top: 60px;
-  color: #ffffff;
+  color: white;
   padding: 50px;
+
+}
+
+p{
+  background-color: white;
+  color:black;
 }
 
