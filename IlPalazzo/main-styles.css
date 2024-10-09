@@ -22,8 +22,8 @@ body {
 }
 .title{
   float: left;
-  color: #ffffff;
-  background-color: #d0955e;
+  color: black;
+  background-color: white;
   font-size: 74.5px;
   margin-top: auto;
   font-family: "Qwitcher Grypen", cursive;
@@ -34,14 +34,14 @@ body {
 }
 
 .topnav{
-  background-color:#d0955e ;
+  background-color: white ;
   overflow:hidden;
   border-radius: 50px;
 }
 
 .topnav a{
   float: right;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 9.3px 100px;
   text-decoration: none;
@@ -52,7 +52,7 @@ body {
 }
 
  .topnav a:hover{
-  color:black;
+  color:grey;
  }
 
 section {

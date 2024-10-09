@@ -36,8 +36,8 @@ header{
 
   .title{
     float: left;
-    color: #ffffff;
-    background-color: #d0955e;
+    color: black;
+    background-color: white;
     font-size: 61px;
     margin-top: auto;
     padding:10px;
@@ -49,7 +49,7 @@ header{
   }
   
   .topnav{
-    background-color:#d0955e ;
+    background-color:white ;
     overflow:hidden;
     padding:10px;
     border-radius: 50px;
@@ -57,7 +57,7 @@ header{
   
   .topnav a{
     float: right;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 3.7px 100px;
     text-decoration: none;
@@ -69,7 +69,7 @@ header{
   
    .topnav a:hover{
     
-    color:black;
+    color:grey;
    
    }
 
@@ -79,7 +79,7 @@ header{
 }
 
 .container_text{
-color: white;
+color: black;
 margin-top:80px;
 padding: 50px;
 }

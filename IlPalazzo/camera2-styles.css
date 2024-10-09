@@ -32,8 +32,8 @@ p{
 
 .title{
   float: left;
-  color: #ffffff;
-  background-color: #d0955e;
+  color: black;
+  background-color: white;
   font-size: 59px;
   margin-top: 0;
   border-radius: 50px;
@@ -48,7 +48,7 @@ p{
  }
 
  .topnav{
-  background-color:#d0955e ;
+  background-color:white ;
   overflow:hidden;
   border-radius: 50px;
   
@@ -56,7 +56,7 @@ p{
 
 .topnav a{
   float: right;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 9px 100px;
   text-decoration: none;
@@ -67,7 +67,7 @@ p{
 
  .topnav a:hover{
   
-  color:black;
+  color:grey;
  }
 
 
