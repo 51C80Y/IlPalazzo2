@@ -1,13 +1,4 @@
 @media screen and (max-width: 1400px) {
-    #rooms {
-        width: 150vh;
-        
-    }
-    img{
-        width: 250px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
 }
 
 @media screen and (max-width: 1200px){
@@ -17,6 +8,30 @@
 
 
 
-@media screen and (max-width: 600px) {
- 
+@media screen and (max-width: 430px) {
+
+
+.topnav{
+    width: 50%;
+    
+    
+ }
+
+#about{
+    margin-top: 300px;
 }
+#rooms{
+    display: none;
+}
+
+}
+.icon{
+    float:center;
+    padding:10px;
+    
+    
+ }
+
+ footer{
+    display: none;
+ }
