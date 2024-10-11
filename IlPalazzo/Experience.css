@@ -55,12 +55,11 @@ body {
   
    .topnav a:hover{
     
-<<<<<<< HEAD
+
     color:grey;
    }
-=======
-    color:black;
-   }
+
+   
 
 
 
@@ -113,8 +112,8 @@ body {
 }
 
 .card-back {
-  background-color: #d0955e;
-  color: #fff;
+  background-color: white;
+  color: black;
   display: flex;
   align-items: center;
   border: 2px solid black;
@@ -122,6 +121,7 @@ body {
   justify-content: center;
   font-size: 14px;
   transform: rotateY(180deg);
+  padding:10px;
 }
 /* END */
->>>>>>> 132c0dee8efa0c6a76737e7f234dbc215e3ac283
+

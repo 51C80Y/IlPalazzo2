@@ -55,17 +55,14 @@ body {
   
    .topnav a:hover{
     
-<<<<<<< HEAD
+
     color:grey;
    }
-=======
-    color:black;
-   }
 
-   
+
   p{
     margin-top: 80px;
-    background-color:#d0955e ;
+    background-color:white ;
     border-radius:20px ;
   }
 
@@ -105,4 +102,4 @@ body {
   border-radius: 40px;
   padding: 10px;
 }
->>>>>>> 132c0dee8efa0c6a76737e7f234dbc215e3ac283
+
