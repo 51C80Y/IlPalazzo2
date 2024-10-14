@@ -13,7 +13,7 @@ header{
     font-family:arial;
   }
   body{
-    background-image:url(la_rustica_lampada.jpeg); 
+    background-color:rgb(205,186,160); 
     font-family:'Poppins', sans-serif; 
     margin:0; 
     background-size: cover;
