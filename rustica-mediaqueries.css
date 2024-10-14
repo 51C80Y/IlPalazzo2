@@ -12,8 +12,9 @@
 
 @media screen and (max-width: 430px) {
     .title{
-        position: relative;
+        position: fixed;
         text-align: center;
+        margin-top: -80px;
     }
     .topnav{
          display: none;
@@ -25,13 +26,17 @@
         padding: 20px;
     }
     .text{
-        margin-left:80px ;
+        margin-left:0px ;
+    }
+    p{
+        padding: 20px;
     }
     .room-image1{
-        margin-left: -120px;
+        margin-left: -50px;
     }
     
      footer{
         display: none;
      }
-    }
+
+}

@@ -22,27 +22,20 @@
     
  }
 
-.about{
-    margin-top: 300px;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 20px;
+.text-container{
+    padding: 20px;
 }
-#rooms{
-    display: none;
+.text{
+    margin-left:80px ;
+}
+p{
+    padding: 20px;
+}
+.room-image1{
+    margin-left: -120px;
 }
 
-}
-.contact-info-container{
-    text-align:center;
-    margin: -10px;
-    display:flex;
- }
-
-
- .email-info{
-    float: right;
- }
  footer{
     display: none;
  }
+}
