@@ -82,4 +82,10 @@ p{
 }
 
 
- 
+#home_button{
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}

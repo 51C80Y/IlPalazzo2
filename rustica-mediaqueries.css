@@ -3,14 +3,19 @@
 
 }
 
-@media screen and (max-width: 1200px){
-
+@media screen and (max-width: 1750px){
+    header{
+        margin-top: -100px;
+    }
+    .room-image1{
+        margin-left: -50px;
+    }
 
 }
 
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 1270px) {
     .title{
         position: fixed;
         text-align: center;
@@ -18,8 +23,6 @@
     }
     .topnav{
          display: none;
-        
-        
      }
     
     .text-container{
@@ -32,7 +35,7 @@
         padding: 20px;
     }
     .room-image1{
-        margin-left: -50px;
+        margin-left: -30px;
     }
     
      footer{
