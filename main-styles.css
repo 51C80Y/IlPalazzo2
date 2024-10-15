@@ -62,7 +62,7 @@ section {
   
 }
 
-#about{
+.about{
   color:white;
 }
 
@@ -163,7 +163,7 @@ a{
 
 
 .contact-info-container{
-  float: right;
+  float: left;
 }
 
 
