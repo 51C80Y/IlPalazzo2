@@ -18,7 +18,7 @@
     .title{
         position: fixed;
         text-align: center;
-        margin-top: -80px;
+        margin-top: 80px;
     }
     .topnav{
          display: none;
