@@ -46,6 +46,7 @@ p{
 @media screen and (min-width: 800px) {
     footer{
         display: none;
+        text-align: center;
 
      }
 }
