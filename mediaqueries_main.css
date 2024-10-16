@@ -7,11 +7,16 @@
     max-width: 80%;
     position: relative;
     text-align: justify;
-    
+    margin-top: -10px;
 }
-#contact_nav{
-    display: none;
+img{
+    max-width: 240px;
+    max-height: 240px;
+    padding: -30px;
+    margin-left: 60px;
 }
+
+
 }
 
 

@@ -7,7 +7,9 @@
         margin-top: -100px;
     }
     .room-image1{
-        margin-left: -50px;
+        margin-left: 100px;
+        max-width: 700px;
+        padding:-20px;
     }
 
 }

@@ -3,9 +3,11 @@
 
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1500px){
 
-
+    .room-image1{
+        margin-left: 120px;
+    }
 }
 
 

@@ -15,10 +15,23 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+ 
   background-image: url(il_palazzo_cucina_fiore.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  
+}
 
+body::before{
+  content: "";
+  background-image: url(il_palazzo_cucina_fiore.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
 }
 .title{
   float: left;
@@ -43,7 +56,7 @@ body {
   float: right;
   color: black;
   text-align: center;
-  padding: 9.3px 100px;
+  padding: 1.3px 100px;
   text-decoration: none;
   font-size: 43px;
   font-family: "Qwitcher Grypen", cursive;

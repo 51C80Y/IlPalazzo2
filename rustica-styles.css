@@ -52,9 +52,9 @@ header{
     float: right;
     color: black;
     text-align: center;
-    padding: 3.7px 100px;
+    padding: 1.7px 100px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
     font-style: normal;
@@ -81,11 +81,11 @@ padding: 50px;
 }
 
 .room-image1{
-  width: 380px;
+  width: 480px;
   border-radius: 50px;
-  height: 300px;
+  height: 400px;
   padding: 40px;
- 
+  
 }
 
 .banner{

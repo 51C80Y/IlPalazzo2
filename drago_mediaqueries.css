@@ -4,9 +4,13 @@
 
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1600px){
 
-
+    .room-image1{
+        position: relative;
+        text-align: center;
+        margin-left: 120px;
+    }
 
   
 }
