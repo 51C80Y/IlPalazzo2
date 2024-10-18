@@ -1,5 +1,9 @@
 @media screen and (min-width: 2560) {
-
+ .room-image1{
+        margin-left: 100px;
+        max-width: 600px;
+        padding:-20px;
+    }
 }
 
 @media screen and (max-width: 1750px){
