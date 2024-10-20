@@ -1,4 +1,4 @@
-@media screen and (min-width: 2560) {
+@media screen and (max-width: 1850) {
  .room-image1{
         margin-left: 100px;
         max-width: 600px;
@@ -6,7 +6,7 @@
     }
 }
 
-@media screen and (max-width: 1750px){
+@media screen and (max-width: 1600px){
     header{
         margin-top: -100px;
     }
@@ -20,7 +20,7 @@
 
 
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 850px) {
     .title{
         position: fixed;
         text-align: center;
