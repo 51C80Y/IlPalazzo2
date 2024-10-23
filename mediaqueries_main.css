@@ -13,7 +13,7 @@ img{
     max-width: 240px;
     max-height: 240px;
     padding: -30px;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 
 
@@ -21,7 +21,7 @@ img{
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
 
 .title{
     position: relative;

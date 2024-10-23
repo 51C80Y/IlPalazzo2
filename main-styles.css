@@ -16,27 +16,15 @@ body {
   margin: 0;
   padding: 0;
  
-  background-image: url(il_palazzo_cucina_fiore.jpeg);
+  background-image: url(Assets/il_palazzo_cucina_fiore.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   
 }
 
-body::before{
-  content: "";
-  background-image: url(il_palazzo_cucina_fiore.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
 .title{
   float: left;
-  color: black;
-  background-color: white;
+  color: white;
   font-size: 74.5px;
   margin-top: auto;
   font-family: "Qwitcher Grypen", cursive;
@@ -158,6 +146,7 @@ a{
   margin-left: 140px;
   border-radius: 50px;
   color: white;
+ 
 }
 
 .room-image {

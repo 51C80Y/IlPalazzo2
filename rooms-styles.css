@@ -14,15 +14,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(il_palazzo_salotto_2.jpeg);
+    background-image: url(Assets/il_palazzo_salotto_2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .title{
   float: left;
-  color: black;
-  background-color: white;
+  color: white;
   font-size: 74px;
   margin-top: auto;
   font-family: "Qwitcher Grypen", cursive;
