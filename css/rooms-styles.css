@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(Assets/il_palazzo_salotto_2.jpeg);
+    background-image: url(../il_palazzo_salotto_2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,6 +36,7 @@ body {
   background-color:rgba(255,255,255,0.7) ;
   overflow:hidden;
   border-radius: 50px;
+  margin-top: 15px;
 }
 
 .topnav a{
