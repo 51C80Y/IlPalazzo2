@@ -16,8 +16,21 @@ img{
     padding: -30px;
     margin-left: 10px;
 }
+.campiglia{
+    width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 25px;
+ 
+}
 
+/** #map{
 
+}
+
+#view{
+
+}
+**/
 }
 
 
@@ -53,9 +66,3 @@ img{
  }
 
 
- .email-info{
-    float: right;
- }
- footer{
-    display: none;
- }
