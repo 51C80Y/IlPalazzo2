@@ -22,7 +22,7 @@ body {
 .title{
     float: left;
     color: black;
-    font-size: 70px;
+    font-size: 60px;
     margin-top: auto;
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
@@ -34,25 +34,25 @@ body {
    .topnav{
     background-color:rgba(255,255,255,0.7);
     overflow:hidden;
-    margin-top: auto;
+    margin-top: 10px;
     border-radius: 50px;
+    margin-top: 10px;
    }
   
   .topnav a{
     float: right;
     color: black;
     text-align: center;
-    padding: 17.5px 100px;
+    padding: 7.5px 100px;
     text-decoration: none;
     font-size: 45px;
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
     font-style: normal;
+   
   }
   
    .topnav a:hover{
-    
-
     color:grey;
    }
 
@@ -64,7 +64,7 @@ body {
   }
 
   .sassetta{
-    margin-top: 10%;
+    margin-top: 2%;
   }
    #header_sassetta{
     float: left;
