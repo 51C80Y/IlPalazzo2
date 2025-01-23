@@ -105,11 +105,7 @@ body {
     margin-top: -5px;
     
    }
-   #campiglia1{
-    padding:10px;
-    margin-top: -5px;
-    background-color: #f6f3a1;
-   }
+  
 
    
 
@@ -133,10 +129,9 @@ body {
    .campiglia{
    width: 300px;
    height: 225px;
-   border-radius: 40px;
+   border-radius: 20px;
    padding: 10px;
    margin-left: 10px;
-   margin-top: 20px;
 }
 
 .images-campiglia{

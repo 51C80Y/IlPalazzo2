@@ -14,8 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
-    background-image: url(panorama_il_palazzo.webp);
+    background-image: url(../Assets/panorama_il_palazzo.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,8 +22,7 @@ body {
 
 .title{
     float: left;
-    color: #ffffff;
-    background-color: rgb(42, 161, 36);
+    color: black;
     font-size: 55px;
     margin-top: auto;
     font-family: "Qwitcher Grypen", cursive;
@@ -59,9 +57,20 @@ body {
     color:grey;
    }
 
+
+.one_liner{
+  background-color: rgba(255,255,255,0.7);
+  padding: 20px;
+  margin: 40px 40px;
+  border-radius: 30px;
+}
    
 
-
+#gift_line{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
 
 
    /* From Uiverse.io by vamsidevendrakumar */ 
@@ -75,8 +84,8 @@ body {
   padding: 36px;
   text-align: justify;
   float:right;
-  margin-right: 90px;
-  margin-top: 330px;
+  margin-right: 200px;
+  margin-top: 60px;
 }
 
 .card-inner {
@@ -100,7 +109,7 @@ body {
 }
 
 .card-front {
-  background:url(Terme-Di-Sassetta.webp);
+  background-image:url(../Assets/gift_card.jpg) ;
   background-size: cover;
   color: #fff;
   display: flex;
