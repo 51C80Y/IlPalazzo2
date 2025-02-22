@@ -69,7 +69,7 @@ body {
    #header_sassetta{
     float: left;
     padding:10px;
-
+    margin-bottom: -5%;
    }
 
    #sassetta{
@@ -77,23 +77,17 @@ body {
     margin-top: 5%;
    }
 
-
-
-
-
    #header_trekking{
-    
     padding: 20px;
     margin-top: 10%;
+    margin-bottom: 0%;
+
    }
    #trekking{
     padding: 10px;
     margin-top: -5px;
     
    }
-
-
-
 
    #header_campiglia{
     padding: 10px;
@@ -106,9 +100,6 @@ body {
     
    }
   
-
-   
-
    .view_sassetta{
     width: 400px;
     height: 350px;
@@ -138,6 +129,11 @@ body {
   text-align: center;
 }
 
+#monte{
+  padding:10px;
+  margin-top: -5px;
+  
+ }
 
 .map_campiglia{
   border-radius: 20px;

@@ -133,5 +133,17 @@ body {
   transform: rotateY(180deg);
   padding:10px;
 }
+
+
+#terme{
+width: 150px;
+height:150px;
+}
+#massage{
+  width: 150px;
+  height:150px;
+}
+
+
 /* END */
 
