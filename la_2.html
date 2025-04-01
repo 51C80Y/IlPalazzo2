@@ -9,9 +9,11 @@
     <link rel="icon" type="image/x-icon" href="Assets/favicon.jpeg">
 </head>
 <body>
+<!--CONTROLS NAVBAR-->
     <header class="header">
-        <div class="nav-container">
-          <h1 class="title">La Due</h1>
+    
+        <div class="nav-container">  
+          <h1 class="title">La Due</h1>     
           <ul class="topnav">
             <a href="main.html">Home</a>
             <a href="Rooms.html">Rooms</a>
@@ -20,6 +22,9 @@
           </ul>
         </div>
     </header>
+<!--END CONTROLS NAVBAR-->
+
+<!--ROOM ABOUTS-->
     <section class="text">
     <div class="text-container">
   <h2>La Due</h2>
@@ -53,16 +58,57 @@
             High speed Wifi available in all rooms.
         </p>
     </div>
-  
-    <div class="container_images">
-        <img src="Assets/camera_due_cucina.jpeg" alt="Room 2" class="room-image1">
-        <img src="Assets/camera_due_letto.jpeg" alt="Room 2" class="room-image1">
-        <img src="Assets/camera_due_salotto.jpeg" alt="Room 2" class="room-image1">
-        <img src="Assets/la_2_cucina.webp" alt="Room 2" class="room-image1">
-    </div>
-  </section>
 
-  
-  
+<!-- SLIDING IMAGES 1.0-->
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="Assets/camera_due_cucina.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="Assets/camera_due_letto.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="Assets/camera_due_salotto.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="Assets/la_2_cucina.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<!-- END SLIDING IMAGES -->
+
+</section>
+<!--END ROOM ABOUTS-->
+
+<footer>
+<!--CONTROLS SLIDING IMAGES-->
+  <script>
+    let slideIndex = [1,1];
+    let slideId = ["mySlides1", "mySlides2"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+              
+    function plusSlides(n, no) {
+     showSlides(slideIndex[no] += n, no);
+    }
+              
+    function showSlides(n, no) {
+      let i;
+      let x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+  </script>
+<!--END CONTROLS SLIDING IMAGES-->
+</footer>
 </body>
 </html>

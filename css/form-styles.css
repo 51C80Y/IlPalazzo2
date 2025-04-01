@@ -173,3 +173,11 @@ form {
   border-radius: 2px;
   cursor: pointer;
 }
+
+footer {
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

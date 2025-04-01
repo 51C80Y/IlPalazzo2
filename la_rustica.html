@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="Assets/favicon.jpeg">
 </head>
 <body>
-
+<!--CONTROLS NAVBAR-->
 <header>
     <h1 class="title">Rustica</h1>
     <div class="topnav">
@@ -21,9 +21,9 @@
     </ul>
   </div>
 </header>
+<!--END CONTROLS NAVBAR-->
 
-
-
+<!--ROOM ABOUTS-->
 <section class="text">
   <div class="banner"></div>
   <div class="container_text">
@@ -59,23 +59,56 @@
         </p>
   </div>
 
-  <div class="container_images">
-    <img src="Assets/la_rustica_letto.jpg" alt="Room 1" class="room-image1">
-    <img src="Assets/la_rustica_cucina.jpeg" alt="Room 1" class="room-image1">
-    <img src="Assets/la_rustica_lampada.jpeg" alt="Room 1" class="room-image1">
-    <img src="Assets/la_rustica_salotto.jpeg" alt="Room 1" class="room-image1">
+<!-- SLIDING IMAGES 1.0-->
+  <div class="slideshow-container">
+    <div class="mySlides1">
+      <img src="Assets/la_rustica_cucina.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides1">
+      <img src="Assets/la_rustica_letto.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides1">
+      <img src="Assets/la_rustica_lampada.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="Assets/la_rustica_salotto.jpeg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
   </div>
+<!-- END SLIDING IMAGES -->
+
 </section>
+<!--ROOM ABOUTS-->
 
-
-
-
- 
-
-
-
-<footer class="footer">
-
+<footer>
+<!--CONTROLS SLIDING IMAGES-->
+  <script>
+    let slideIndex = [1,1];
+    let slideId = ["mySlides1", "mySlides2"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+              
+    function plusSlides(n, no) {
+     showSlides(slideIndex[no] += n, no);
+    }
+              
+    function showSlides(n, no) {
+      let i;
+      let x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+  </script>
+<!--END CONTROLS SLIDING IMAGES-->
 </footer>
 </body>
 </html>

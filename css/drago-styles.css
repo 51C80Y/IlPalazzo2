@@ -18,22 +18,13 @@ body {
 .title{
   float: left;
   color: white;
- 
   font-size: 64.5px;
-  margin-top: -25px;
+  margin-top: -30px;
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
   font-style: normal;
   border-radius: 50px;
   cursor:default;
-}
-
-
-p{
-  background-color: rgba(255,255,255,0.7);
-  border-radius: 10px;
-  opacity: 70%;
-  color:black;
 }
 
 .topnav{
@@ -53,33 +44,66 @@ p{
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
   font-style: normal;
+
 }
 
- .topnav a:hover{
+.topnav a:hover{
   
   color:grey;
- }
+}
 
-
- .text-container{
+.text-container{
   color: #ffffff;
   margin-top: 60px;
   padding: 50px;
   
- }
-
-
-
- .container_images{
-  padding: 50px;
- }
-
- .room-image1{
-  width: 360px;
-  border-radius: 50px;
-  height: 290px;
-  padding: 40px;
 }
+
+p{
+  color: black;
+}
+
+/* SLIDING IMAGES */
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* END SLIDING IMAGES */
 
 
 #home_button{
@@ -88,4 +112,13 @@ p{
   position: relative;
   text-align: center;
   text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
 }

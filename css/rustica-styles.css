@@ -11,44 +11,40 @@ header{
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     font-family:arial;
-  }
-  body{
+}
+
+body{
     background-color:rgb(205,186,160); 
     font-family:'Poppins', sans-serif; 
     margin:0; 
     background-size: cover;
-  }
+}
 
-
-  header{
+header{
     z-index: 3;
     margin-top: -100px;
-  }
-  
-  
+}
 
-  .title{
+.title{
     float: left;
     color: white;
     font-size: 61px;
-    margin-top: 30px;
+    margin-top: 0px;
     padding:10px;
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
     font-style: normal;
     border-radius: 50px;
-    cursor:default;
-  }
+    cursor:default;}
   
-  .topnav{
+.topnav{
     background-color:rgba(255,255,255,0.7);
     overflow:hidden;
-    padding:0px;
     border-radius: 50px;
-    margin-top: 50px;
-  }
+    margin-top: 20px;
+}
   
-  .topnav a{
+.topnav a{
     float: right;
     color: black;
     text-align: center;
@@ -58,21 +54,17 @@ header{
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-   .topnav a:hover{
-    
+.topnav a:hover{  
     color:grey;
    
-   }
+}
 
 .banner{
   color: white;
 }
 
-.container_images{
-  padding: 50px;
-}
 
 .container_text{
 color: black;
@@ -80,22 +72,8 @@ margin-top:80px;
 padding: 50px;
 }
 
-.room-image1{
-  width: 440px;
-  border-radius: 50px;
-  height: 400px;
-  padding: 40px;
-  
-}
-
 .banner{
   color:black;
-}
-
-p{
-  background-color: white;
-  border-radius: 10px;
-  opacity: 70%;
 }
 
 h2{
@@ -104,4 +82,58 @@ color: white
 
 h3{
 color: white
+}
+
+p{
+  color: black;
+}
+
+/* SLIDING IMAGES */
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* END SLIDING IMAGES */
+
+footer {
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
