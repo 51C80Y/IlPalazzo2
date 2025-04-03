@@ -22,37 +22,27 @@
 .title{
     position: relative;
     text-align: center;
+    margin-top: 20px;
 }
 .topnav{
      display: none;
-    
-    
  }
 
 .text-container{
     padding: 20px;
 }
 .text{
-    margin-left:80px ;
+    margin-left:0px ;
 }
 p{
     padding: 20px;
 }
-.room-image1{
-    position: relative;
-    text-align: center;
-    margin-left: -120px;
-}
+
   footer{
-        text-align: center
-     }
-
-}
-
-@media screen and (min-width: 800px) {
-    footer{
+        text-align: center;
         display: none;
-        
-
      }
+
 }
+
+
