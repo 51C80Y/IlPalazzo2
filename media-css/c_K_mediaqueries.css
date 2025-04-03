@@ -1,0 +1,48 @@
+@media screen and (min-width: 2560) {
+
+
+
+}
+
+@media screen and (max-width: 1600px){
+
+    .room-image1{
+        position: relative;
+        text-align: center;
+        margin-left: 120px;
+    }
+
+  
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+.title{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.topnav{
+     display: none;
+ }
+
+.text-container{
+    padding: 20px;
+}
+.text{
+    margin-left:0px ;
+}
+p{
+    padding: 20px;
+}
+
+  footer{
+        text-align: center;
+        display: none;
+     }
+
+}
+
+

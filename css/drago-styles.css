@@ -5,6 +5,7 @@ header{
   width: 100%;;
   top:0;
   z-index: 2;
+  margin-top: -10px;
 }
 
 body {
@@ -114,11 +115,3 @@ img {vertical-align: middle;}
   text-decoration: none;
 }
 
-footer {
-  text-align: center;
-  color: black;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  background-color: none;
-}

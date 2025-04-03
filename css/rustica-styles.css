@@ -22,7 +22,7 @@ body{
 
 header{
     z-index: 3;
-    margin-top: -100px;
+    margin-top: 0px;
 }
 
 .title{
@@ -48,7 +48,7 @@ header{
     float: right;
     color: black;
     text-align: center;
-    padding: 1.7px 100px;
+    padding: 0px 100px;
     text-decoration: none;
     font-size: 30px;
     font-family: "Qwitcher Grypen", cursive;
@@ -98,6 +98,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 /* Next & previous buttons */
@@ -130,10 +131,3 @@ img {vertical-align: middle;}
 
 /* END SLIDING IMAGES */
 
-footer {
-  text-align: center;
-  color: black;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}

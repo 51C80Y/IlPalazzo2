@@ -1,41 +1,36 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
-
-body {
-  font-family: 'Poppins', sans-serif;
-  margin:0;
-  padding: 0;
-  background-color: rgb(196, 148, 22);
-
-}
-
 header{
   position: fixed;
   width: 100%;;
+  top:0;
   z-index: 2;
-  margin-top: -80px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(137, 164, 134);
+
 }
 
 .title{
   float: left;
   color: white;
-  font-size: 59px;
-  margin-top: 0;
+  font-size: 64.5px;
+  margin-top: -30px;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
   border-radius: 50px;
   cursor:default;
 }
 
-.nav-container{
-  font-family: "Qwitcher Grypen", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .topnav{
+  background-color:rgba(255,255,255,0.7) ;
   overflow:hidden;
   margin-top: 30px;
-  background-color:rgba(255,2555,255,0.5);
   border-radius: 50px;
 }
 
@@ -46,15 +41,25 @@ header{
   padding: 1.5px 100px;
   text-decoration: none;
   font-size: 33px;
-  margin-top: 10px;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
 
 }
 
- .topnav a:hover{
+.topnav a:hover{
+  
   color:grey;
- }
+}
 
- p{
+.text-container{
+  color: #ffffff;
+  margin-top: 60px;
+  padding: 50px;
+  
+}
+
+p{
   color: black;
 }
 
@@ -68,7 +73,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 /* Next & previous buttons */
@@ -101,17 +106,12 @@ img {vertical-align: middle;}
 
 /* END SLIDING IMAGES */
 
-.text-container{
-  margin-top: 60px;
-  color: white;
-  padding: 50px;
 
-}
-
-footer {
-  text-align: center;
-  color: black;
+#home_button{
+  background-color: white;
+  border-radius: 20px;
   position: relative;
-  bottom: 0;
-  width: 100%;
+  text-align: center;
+  text-decoration: none;
 }
+
