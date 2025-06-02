@@ -17,6 +17,14 @@ body {
 
 }
 /*  HEADER */
+#header_sassetta{
+  margin-bottom: -10px;
+}
+
+#header_trekking{
+  margin-bottom: -10px;
+}
+
 .title{
     float: left;
     color: black;
