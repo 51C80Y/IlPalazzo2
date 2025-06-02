@@ -72,7 +72,7 @@ color:grey;
   height: 200px;
   perspective: 1000px;
   padding: 36px;
-  text-align: justify;
+  text-align:center;
   float:right;
   margin-right: 200px;
 }
