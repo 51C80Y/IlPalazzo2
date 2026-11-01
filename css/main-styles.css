@@ -4,7 +4,6 @@
 
 
 header{
-  position: fixed;
   width:100%;
   top: 0;
   z-index: 2;
@@ -21,10 +20,10 @@ body {
 }
 
 .title{
-  float: left;
+  float: center;
   color: white;
   font-size: 74.5px;
-  margin-top: auto;
+ text-align:center ;
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
   font-style: normal;
@@ -32,16 +31,15 @@ body {
 }
 
 .topnav{
-  background-color: rgba(255,255,255,0.7) ;
+  text-align: center;
   overflow:hidden;
   border-radius: 50px;
   margin-top: 19px;
 }
 
 .topnav a{
-  float: right;
-  color: black;
-  text-align: center;
+  color: white;
+  text-align: right;
   padding: 1.3px 100px;
   text-decoration: none;
   font-size: 43px;
